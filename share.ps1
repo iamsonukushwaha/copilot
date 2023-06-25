@@ -1,4 +1,4 @@
-# Script to share the C drive with everyone
+
 
 $shareName = "C$"
 

